@@ -1,0 +1,778 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>热门欧美影片-欧美热门好看影片片库-热门影片在线点播</title>
+  <meta name="description" content="热门欧美影片页面按站内热度整理欧美影片条目，便于查看多类型热门内容。">
+  <meta name="keywords" content="热门欧美影片,欧美影片片库,热门影片在线点播,欧美影片,热门电影,精选影片,影片分类">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script defer src="./assets/movie-data.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+  <script defer src="./assets/site.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-bar">
+        <a class="logo" href="./index.html" aria-label="热门欧美影片首页">
+          <span class="logo-mark"></span>
+          <span class="logo-text">热门欧美影片</span>
+        </a>
+        <nav class="nav-links" aria-label="主导航">
+          <a href="./index.html">首页</a>
+          <a href="./categories.html">分类浏览</a>
+          <a href="./library.html">影片片库</a>
+          <a href="./ranking.html">热播榜</a>
+        </nav>
+        <button class="mobile-menu-button" type="button" data-mobile-button>菜单</button>
+      </div>
+      <nav class="mobile-panel" data-mobile-panel aria-label="移动端导航">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类浏览</a>
+        <a href="./library.html">影片片库</a>
+        <a href="./ranking.html">热播榜</a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+  <div class="hero-bg-slide active" data-hero-bg style="background-image: url(./127.jpg);"></div>
+  <div class="hero-bg-slide" data-hero-bg style="background-image: url(./61.jpg);"></div>
+  <div class="hero-bg-slide" data-hero-bg style="background-image: url(./86.jpg);"></div>
+  <div class="hero-bg-slide" data-hero-bg style="background-image: url(./61.jpg);"></div>
+  <div class="hero-bg-slide" data-hero-bg style="background-image: url(./27.jpg);"></div>
+  <div class="hero-bg-slide" data-hero-bg style="background-image: url(./145.jpg);"></div>
+    <div class="container hero-inner">
+      <div>
+        <div class="hero-kicker">精选热播 · 在线点播</div>
+        <h1>热门欧美影片<br><span>在线点播片库</span></h1>
+        <p class="hero-summary">热门欧美影片页面按站内热度整理欧美影片条目，便于查看多类型热门内容。精选不同类型热门内容，可快速进入榜单、分类与详情播放。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="ranking.html">进入热播榜</a>
+          <a class="button button-secondary" href="categories.html">浏览分类页</a>
+        </div>
+        <div style="position: relative;">
+          <form class="hero-search" action="library.html">
+            <input type="search" name="q" placeholder="搜索片名、类型、年份、标签" data-global-search data-search-results="#globalSearchResults">
+            <button class="button button-primary" type="submit">搜索</button>
+          </form>
+          <div class="search-results" id="globalSearchResults"></div>
+        </div>
+      </div>
+      <div class="hero-panel">
+          <article class="hero-card" data-hero-slide>
+            <a class="hero-poster" href="detail/movie-0877.html">
+              <img src="./127.jpg" alt="断袖男" loading="eager">
+              <span class="hero-rank-badge">热播 #1</span>
+            </a>
+            <div class="hero-copy">
+              <div class="meta-row">
+                <span class="pill pill-hot">喜剧武侠</span>
+                <span class="pill">2026</span>
+                <span class="pill">中国大陆</span>
+                <span class="pill">剧情 / 爱情 / 家庭</span>
+              </div>
+              <h2>断袖男</h2>
+              <p>一个无法对女人产生兴趣的乡村裁缝，在逼婚与自我拷问中，缝制出了一件只属于他的彩虹礼服。</p>
+              <a class="button button-primary" href="detail/movie-0877.html">进入详情播放</a>
+            </div>
+          </article>
+          <article class="hero-card" data-hero-slide hidden>
+            <a class="hero-poster" href="detail/movie-1411.html">
+              <img src="./61.jpg" alt="揭密风暴" loading="eager">
+              <span class="hero-rank-badge">热播 #2</span>
+            </a>
+            <div class="hero-copy">
+              <div class="meta-row">
+                <span class="pill pill-hot">动作冒险</span>
+                <span class="pill">2027</span>
+                <span class="pill">美国 / 英国</span>
+                <span class="pill">惊悚、剧情</span>
+              </div>
+              <h2>揭密风暴</h2>
+              <p>一家老牌纸媒收到匿名爆料，声称五年前的连环杀手是警方为了结案而捏造的，真正的凶手仍在作案。</p>
+              <a class="button button-primary" href="detail/movie-1411.html">进入详情播放</a>
+            </div>
+          </article>
+          <article class="hero-card" data-hero-slide hidden>
+            <a class="hero-poster" href="detail/movie-0536.html">
+              <img src="./86.jpg" alt="撕裂地平线" loading="eager">
+              <span class="hero-rank-badge">热播 #3</span>
+            </a>
+            <div class="hero-copy">
+              <div class="meta-row">
+                <span class="pill pill-hot">欧美热映</span>
+                <span class="pill">2026</span>
+                <span class="pill">美国</span>
+                <span class="pill">科幻 / 恐怖</span>
+              </div>
+              <h2>撕裂地平线</h2>
+              <p>一艘失踪七年的实验飞船突然返航，搜救队发现船上的重力已经失效，而船员变成了怪物。</p>
+              <a class="button button-primary" href="detail/movie-0536.html">进入详情播放</a>
+            </div>
+          </article>
+          <article class="hero-card" data-hero-slide hidden>
+            <a class="hero-poster" href="detail/movie-0661.html">
+              <img src="./61.jpg" alt="子夜叹息" loading="eager">
+              <span class="hero-rank-badge">热播 #4</span>
+            </a>
+            <div class="hero-copy">
+              <div class="meta-row">
+                <span class="pill pill-hot">奇幻科幻</span>
+                <span class="pill">2025</span>
+                <span class="pill">泰国</span>
+                <span class="pill">恐怖、惊悚、宗教</span>
+              </div>
+              <h2>子夜叹息</h2>
+              <p>一个男人为了复活死去的女儿，按照古法造了一个人偶，但每个午夜，人偶都会在他耳边说出一个陌生人的死因。</p>
+              <a class="button button-primary" href="detail/movie-0661.html">进入详情播放</a>
+            </div>
+          </article>
+          <article class="hero-card" data-hero-slide hidden>
+            <a class="hero-poster" href="detail/movie-1377.html">
+              <img src="./27.jpg" alt="夏至廊桥" loading="eager">
+              <span class="hero-rank-badge">热播 #5</span>
+            </a>
+            <div class="hero-copy">
+              <div class="meta-row">
+                <span class="pill pill-hot">奇幻科幻</span>
+                <span class="pill">2026</span>
+                <span class="pill">中国</span>
+                <span class="pill">爱情 / 家庭</span>
+              </div>
+              <h2>夏至廊桥</h2>
+              <p>每年夏至都会在同一座廊桥避雨的男女，发现彼此竟身处相隔五年的平行时空。</p>
+              <a class="button button-primary" href="detail/movie-1377.html">进入详情播放</a>
+            </div>
+          </article>
+          <article class="hero-card" data-hero-slide hidden>
+            <a class="hero-poster" href="detail/movie-1945.html">
+              <img src="./145.jpg" alt="阿拉伯漂移2" loading="eager">
+              <span class="hero-rank-badge">热播 #6</span>
+            </a>
+            <div class="hero-copy">
+              <div class="meta-row">
+                <span class="pill pill-hot">亚洲剧集</span>
+                <span class="pill">2026</span>
+                <span class="pill">沙特阿拉伯 / 阿联酋</span>
+                <span class="pill">动作 / 犯罪 / 赛车</span>
+              </div>
+              <h2>阿拉伯漂移2</h2>
+              <p>前作主角在迪拜隐姓埋名成为顶级金融黑客，但当年害死他哥哥的“幽灵车手”重现江湖，此次目标是劫持全球首脑的区块链密钥。</p>
+              <a class="button button-primary" href="detail/movie-1945.html">进入详情播放</a>
+            </div>
+          </article>
+        <div class="hero-dots">
+          <button class="hero-dot active" type="button" data-hero-dot aria-label="切换到第 1 张"></button>
+          <button class="hero-dot" type="button" data-hero-dot aria-label="切换到第 2 张"></button>
+          <button class="hero-dot" type="button" data-hero-dot aria-label="切换到第 3 张"></button>
+          <button class="hero-dot" type="button" data-hero-dot aria-label="切换到第 4 张"></button>
+          <button class="hero-dot" type="button" data-hero-dot aria-label="切换到第 5 张"></button>
+          <button class="hero-dot" type="button" data-hero-dot aria-label="切换到第 6 张"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">精选分类频道</h2>
+            <p class="section-desc">按不同观看偏好整理多个频道，方便从分类入口浏览片库内容。</p>
+          </div>
+          <a class="button button-secondary" href="categories.html">全部分类</a>
+        </div>
+        <div class="category-grid">
+        <a class="category-tile" href="category-01.html">
+          <h3>欧美热映</h3>
+          <p>一艘失踪七年的实验飞船突然返航，搜救队发现船上的重力已经失效，而船员变成了怪物。</p>
+        </a>
+        <a class="category-tile" href="category-02.html">
+          <h3>犯罪惊悚</h3>
+          <p>为了寻找失踪十年的姐姐，都市白领回到湘西老家，却发现了山谷里能复制活人执念的吞噬者。</p>
+        </a>
+        <a class="category-tile" href="category-03.html">
+          <h3>爱情剧情</h3>
+          <p>台中一所高职汽修科的六个“吊车尾”学生，为了不让自己的实习工坊被拆，决定造出一辆能赢过贵族学校的赛车。</p>
+        </a>
+        <a class="category-tile" href="category-04.html">
+          <h3>动作冒险</h3>
+          <p>一家老牌纸媒收到匿名爆料，声称五年前的连环杀手是警方为了结案而捏造的，真正的凶手仍在作案。</p>
+        </a>
+        <a class="category-tile" href="category-05.html">
+          <h3>悬疑探案</h3>
+          <p>失语症女孩开始临摹天空中的鸟，发现每只鸟都在模仿熟人的口音。</p>
+        </a>
+        <a class="category-tile" href="category-06.html">
+          <h3>喜剧武侠</h3>
+          <p>一个无法对女人产生兴趣的乡村裁缝，在逼婚与自我拷问中，缝制出了一件只属于他的彩虹礼服。</p>
+        </a>
+        <a class="category-tile" href="category-07.html">
+          <h3>奇幻科幻</h3>
+          <p>一个男人为了复活死去的女儿，按照古法造了一个人偶，但每个午夜，人偶都会在他耳边说出一个陌生人的死因。</p>
+        </a>
+        <a class="category-tile" href="category-08.html">
+          <h3>港台精选</h3>
+          <p>平凡少女意外获得进入平行世界独角兽学院的资格，却发现这所学校培养的不是骑士，而是心理治疗师。</p>
+        </a>
+        <a class="category-tile" href="category-09.html">
+          <h3>亚洲剧集</h3>
+          <p>前作主角在迪拜隐姓埋名成为顶级金融黑客，但当年害死他哥哥的“幽灵车手”重现江湖，此次目标是劫持全球首脑的区块链密钥。</p>
+        </a>
+        <a class="category-tile" href="category-10.html">
+          <h3>经典片库</h3>
+          <p>偏远村庄每年选出一对双胞胎祭祀山神，但今年被选中的妹妹发现姐姐早已死去多年。</p>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tight">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">近期片单推荐</h2>
+            <p class="section-desc">结合年份、类型与观看热度整理片单，卡片可直接进入影片详情。</p>
+          </div>
+          <a class="button button-secondary" href="library.html">查看完整片库</a>
+        </div>
+        <div class="card-grid">
+        <article class="movie-card" data-movie-card data-title="超人：世界末日" data-year="2030" data-type="电影" data-genre="动作 / 科幻 / 灾难" data-tags="超人,毁灭日,牺牲">
+          <a class="card-cover" href="detail/movie-1688.html" aria-label="播放 超人：世界末日">
+            <img src="./38.jpg" alt="超人：世界末日" loading="lazy">
+            <span class="card-badge">港台精选</span>
+            <span class="card-time">3:52</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1688.html">超人：世界末日</a></h3>
+            <p class="card-line">毁灭日降临大都会，超人拼死一战，但最可怕的是——公众发现他也会流血。</p>
+            <div class="card-meta">
+              <span>2030</span>
+              <span>·</span>
+              <span>美国</span>
+              <span>·</span>
+              <span>动作 / 科幻 / 灾难</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="武馆" data-year="2029" data-type="电影" data-genre="动作, 剧情" data-tags="咏春,师徒,武德,港片,写实打斗">
+          <a class="card-cover" href="detail/movie-0777.html" aria-label="播放 武馆">
+            <img src="./27.jpg" alt="武馆" loading="lazy">
+            <span class="card-badge">爱情剧情</span>
+            <span class="card-time">1:33</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-0777.html">武馆</a></h3>
+            <p class="card-line">衰落武馆的最后传人，接下一场不能赢的生死擂台，只为守住一条老街。</p>
+            <div class="card-meta">
+              <span>2029</span>
+              <span>·</span>
+              <span>中国香港</span>
+              <span>·</span>
+              <span>动作, 剧情</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="理想国" data-year="2029" data-type="剧集" data-genre="科幻 / 政治惊悚" data-tags="乌托邦,AI治理,思想实验,哲学辩论">
+          <a class="card-cover" href="detail/movie-1116.html" aria-label="播放 理想国">
+            <img src="./66.jpg" alt="理想国" loading="lazy">
+            <span class="card-badge">喜剧武侠</span>
+            <span class="card-time">1:24</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1116.html">理想国</a></h3>
+            <p class="card-line">一个由AI完美治理的城市，唯一的犯罪是“怀疑”。</p>
+            <div class="card-meta">
+              <span>2029</span>
+              <span>·</span>
+              <span>美国</span>
+              <span>·</span>
+              <span>科幻 / 政治惊悚</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="冬天的女子" data-year="2028" data-type="电影" data-genre="剧情" data-tags="东北,女性,悬疑,人性">
+          <a class="card-cover" href="detail/movie-1617.html" aria-label="播放 冬天的女子">
+            <img src="./117.jpg" alt="冬天的女子" loading="lazy">
+            <span class="card-badge">犯罪惊悚</span>
+            <span class="card-time">1:33</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1617.html">冬天的女子</a></h3>
+            <p class="card-line">冰封的松花江下埋藏着一具无名女尸，而城里三位同名女子都坚称自己才是死者。</p>
+            <div class="card-meta">
+              <span>2028</span>
+              <span>·</span>
+              <span>中国大陆</span>
+              <span>·</span>
+              <span>剧情</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="反逆儿" data-year="2028" data-type="剧集" data-genre="家庭 / 悬疑 / 剧情" data-tags="弑父预备,完美家庭假象,精神控制,反转亲情,全员恶人">
+          <a class="card-cover" href="detail/movie-0495.html" aria-label="播放 反逆儿">
+            <img src="./45.jpg" alt="反逆儿" loading="lazy">
+            <span class="card-badge">喜剧武侠</span>
+            <span class="card-time">1:15</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-0495.html">反逆儿</a></h3>
+            <p class="card-line">父亲是国民级“理想家长”畅销书作家，而四个孩子正秘密计划让他“意外死亡”。</p>
+            <div class="card-meta">
+              <span>2028</span>
+              <span>·</span>
+              <span>日本</span>
+              <span>·</span>
+              <span>家庭 / 悬疑 / 剧情</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="圣麒麟传说" data-year="2028" data-type="电影" data-genre="动画" data-tags="神话,成长,冒险,水墨">
+          <a class="card-cover" href="detail/movie-0252.html" aria-label="播放 圣麒麟传说">
+            <img src="./102.jpg" alt="圣麒麟传说" loading="lazy">
+            <span class="card-badge">动作冒险</span>
+            <span class="card-time">1:48</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-0252.html">圣麒麟传说</a></h3>
+            <p class="card-line">小镇孤儿意外唤醒石雕麒麟，却被告知自己是被选中的“灾星”。</p>
+            <div class="card-meta">
+              <span>2028</span>
+              <span>·</span>
+              <span>中国大陆</span>
+              <span>·</span>
+              <span>动画</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="小岛奇谭" data-year="2028" data-type="动画电影" data-genre="奇幻/冒险" data-tags="治愈,夏日,妖怪">
+          <a class="card-cover" href="detail/movie-1273.html" aria-label="播放 小岛奇谭">
+            <img src="./73.jpg" alt="小岛奇谭" loading="lazy">
+            <span class="card-badge">动作冒险</span>
+            <span class="card-time">2:17</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1273.html">小岛奇谭</a></h3>
+            <p class="card-line">暑假来小岛看望外婆的东京少年，在这里他能看见其他人看不见的“岛灵”，而小岛即将沉没。</p>
+            <div class="card-meta">
+              <span>2028</span>
+              <span>·</span>
+              <span>日本</span>
+              <span>·</span>
+              <span>奇幻/冒险</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="悟空传" data-year="2028" data-type="电影" data-genre="奇幻, 动作, 剧情" data-tags="重置版,暗黑神话,反叛,特效大片">
+          <a class="card-cover" href="detail/movie-1111.html" aria-label="播放 悟空传">
+            <img src="./61.jpg" alt="悟空传" loading="lazy">
+            <span class="card-badge">犯罪惊悚</span>
+            <span class="card-time">2:59</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1111.html">悟空传</a></h3>
+            <p class="card-line">这一次，孙悟空没有被压五行山，而是被改造成天庭的“斗战胜佛”AI，每年下凡“清除”一次反抗者。</p>
+            <div class="card-meta">
+              <span>2028</span>
+              <span>·</span>
+              <span>中国大陆</span>
+              <span>·</span>
+              <span>奇幻, 动作, 剧情</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="我们在南太平洋上的岛屿" data-year="2028" data-type="电视剧" data-genre="剧情 / 爱情 / 年代" data-tags="年代,海岛,华人,奋斗,史诗">
+          <a class="card-cover" href="detail/movie-0410.html" aria-label="播放 我们在南太平洋上的岛屿">
+            <img src="./110.jpg" alt="我们在南太平洋上的岛屿" loading="lazy">
+            <span class="card-badge">动作冒险</span>
+            <span class="card-time">3:10</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-0410.html">我们在南太平洋上的岛屿</a></h3>
+            <p class="card-line">从上世纪60年代至今，三代华人女性在法属波利尼西亚的一座小岛上，用贝壳、珍珠和血泪建立起了属于她们的家园帝国。</p>
+            <div class="card-meta">
+              <span>2028</span>
+              <span>·</span>
+              <span>中国大陆</span>
+              <span>·</span>
+              <span>剧情 / 爱情 / 年代</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="暴雨屋" data-year="2028" data-type="电影" data-genre="恐怖 / 悬疑" data-tags="暴风雪山庄,循环,心理攀比">
+          <a class="card-cover" href="detail/movie-1122.html" aria-label="播放 暴雨屋">
+            <img src="./72.jpg" alt="暴雨屋" loading="lazy">
+            <span class="card-badge">亚洲剧集</span>
+            <span class="card-time">1:18</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1122.html">暴雨屋</a></h3>
+            <p class="card-line">七个人在一栋暴雨围困的豪宅里醒来，发现要想离开，就必须找出谁才是最虚伪的人。</p>
+            <div class="card-meta">
+              <span>2028</span>
+              <span>·</span>
+              <span>日本 / 韩国</span>
+              <span>·</span>
+              <span>恐怖 / 悬疑</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="流云逝事" data-year="2028" data-type="电影" data-genre="剧情, 家庭" data-tags="亲情,时间流逝,和解,乡村,怀旧">
+          <a class="card-cover" href="detail/movie-1416.html" aria-label="播放 流云逝事">
+            <img src="./66.jpg" alt="流云逝事" loading="lazy">
+            <span class="card-badge">奇幻科幻</span>
+            <span class="card-time">1:24</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1416.html">流云逝事</a></h3>
+            <p class="card-line">离家二十年的游子为父奔丧，却发现自己被卷入一场关于家族秘密的无声战争。</p>
+            <div class="card-meta">
+              <span>2028</span>
+              <span>·</span>
+              <span>中国大陆</span>
+              <span>·</span>
+              <span>剧情, 家庭</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="相对宇宙第二季" data-year="2028" data-type="剧集" data-genre="科幻, 悬疑" data-tags="平行世界,谍战,哲学,双身">
+          <a class="card-cover" href="detail/movie-1211.html" aria-label="播放 相对宇宙第二季">
+            <img src="./11.jpg" alt="相对宇宙第二季" loading="lazy">
+            <span class="card-badge">悬疑探案</span>
+            <span class="card-time">3:19</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1211.html">相对宇宙第二季</a></h3>
+            <p class="card-line">两个宇宙之间的墙塌了，每个人都要面对另一个自己。</p>
+            <div class="card-meta">
+              <span>2028</span>
+              <span>·</span>
+              <span>美国</span>
+              <span>·</span>
+              <span>科幻, 悬疑</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="神探狄仁杰4" data-year="2028" data-type="电视剧" data-genre="古装 / 悬疑 / 推理" data-tags="狄仁杰,武则天,朝堂,奇案">
+          <a class="card-cover" href="detail/movie-0216.html" aria-label="播放 神探狄仁杰4">
+            <img src="./66.jpg" alt="神探狄仁杰4" loading="lazy">
+            <span class="card-badge">港台精选</span>
+            <span class="card-time">1:24</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-0216.html">神探狄仁杰4</a></h3>
+            <p class="card-line">狄仁杰查案时发现所有线索都指向武则天，而最后一个证物，是他自己的项上人头。</p>
+            <div class="card-meta">
+              <span>2028</span>
+              <span>·</span>
+              <span>中国大陆</span>
+              <span>·</span>
+              <span>古装 / 悬疑 / 推理</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="荒野谜尸" data-year="2028" data-type="电影" data-genre="惊悚 / 悬疑 / 犯罪" data-tags="无人区,法医,道德陷阱,大雪封山,反转再反转">
+          <a class="card-cover" href="detail/movie-0825.html" aria-label="播放 荒野谜尸">
+            <img src="./75.jpg" alt="荒野谜尸" loading="lazy">
+            <span class="card-badge">爱情剧情</span>
+            <span class="card-time">1:45</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-0825.html">荒野谜尸</a></h3>
+            <p class="card-line">一名法医在无人区发现十具排列成圆阵的冰冻男尸，而他自己正成为第十一个“献祭品”。</p>
+            <div class="card-meta">
+              <span>2028</span>
+              <span>·</span>
+              <span>美国</span>
+              <span>·</span>
+              <span>惊悚 / 悬疑 / 犯罪</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="三角突击队2" data-year="2027" data-type="电影" data-genre="动作, 战争, 惊悚" data-tags="三角洲,劫机,复仇,硬汉,枪战">
+          <a class="card-cover" href="detail/movie-1004.html" aria-label="播放 三角突击队2">
+            <img src="./104.jpg" alt="三角突击队2" loading="lazy">
+            <span class="card-badge">奇幻科幻</span>
+            <span class="card-time">3:16</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1004.html">三角突击队2</a></h3>
+            <p class="card-line">前三角洲队员重聚，要在12小时内从被劫持的海上钻井平台救出人质并阻止导弹发射。</p>
+            <div class="card-meta">
+              <span>2027</span>
+              <span>·</span>
+              <span>美国</span>
+              <span>·</span>
+              <span>动作, 战争, 惊悚</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="与赫夫晚餐" data-year="2027" data-type="电影" data-genre="剧情，悬疑，心理" data-tags="心理游戏,晚宴,人性实验,阶层,密室">
+          <a class="card-cover" href="detail/movie-1747.html" aria-label="播放 与赫夫晚餐">
+            <img src="./97.jpg" alt="与赫夫晚餐" loading="lazy">
+            <span class="card-badge">犯罪惊悚</span>
+            <span class="card-time">2:23</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1747.html">与赫夫晚餐</a></h3>
+            <p class="card-line">七位名流受邀与神秘富豪赫夫共进晚餐，却发现每道菜都是一场审判。</p>
+            <div class="card-meta">
+              <span>2027</span>
+              <span>·</span>
+              <span>英国</span>
+              <span>·</span>
+              <span>剧情，悬疑，心理</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="伪恋第二季" data-year="2027" data-type="TV 动画" data-genre="恋爱/喜剧" data-tags="党争,校园,误会重重">
+          <a class="card-cover" href="detail/movie-0541.html" aria-label="播放 伪恋第二季">
+            <img src="./91.jpg" alt="伪恋第二季" loading="lazy">
+            <span class="card-badge">奇幻科幻</span>
+            <span class="card-time">2:29</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-0541.html">伪恋第二季</a></h3>
+            <p class="card-line">假情侣契约还在继续，但黑帮大小姐突然发现，自己好像真的喜欢上了那个“伪物”。</p>
+            <div class="card-meta">
+              <span>2027</span>
+              <span>·</span>
+              <span>日本</span>
+              <span>·</span>
+              <span>恋爱/喜剧</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="健康饮食" data-year="2027" data-type="电视剧" data-genre="喜剧，恐怖，奇幻" data-tags="黑色幽默,饮食,邪教,身体恐惧,荒诞">
+          <a class="card-cover" href="detail/movie-0462.html" aria-label="播放 健康饮食">
+            <img src="./12.jpg" alt="健康饮食" loading="lazy">
+            <span class="card-badge">经典片库</span>
+            <span class="card-time">1:18</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-0462.html">健康饮食</a></h3>
+            <p class="card-line">女主加入“纯净饮食”网红组织，却发现“排毒”是真的要排出内脏。</p>
+            <div class="card-meta">
+              <span>2027</span>
+              <span>·</span>
+              <span>美国</span>
+              <span>·</span>
+              <span>喜剧，恐怖，奇幻</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="别理陌生人" data-year="2027" data-type="电影" data-genre="悬疑、惊悚" data-tags="公寓恐怖,邻居偷窥,社交恐惧,反转结局">
+          <a class="card-cover" href="detail/movie-1758.html" aria-label="播放 别理陌生人">
+            <img src="./108.jpg" alt="别理陌生人" loading="lazy">
+            <span class="card-badge">悬疑探案</span>
+            <span class="card-time">1:42</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1758.html">别理陌生人</a></h3>
+            <p class="card-line">独居女孩遵守“别理陌生人”的准则，却发现自己楼上的邻居，正在往所有人家里安装摄像头。</p>
+            <div class="card-meta">
+              <span>2027</span>
+              <span>·</span>
+              <span>韩国</span>
+              <span>·</span>
+              <span>悬疑、惊悚</span>
+            </div>
+          </div>
+        </article>
+        <article class="movie-card" data-movie-card data-title="启蒙映画" data-year="2027" data-type="电影" data-genre="剧情, 情色, 历史" data-tags="默片时代,女演员,禁忌,艺术觉醒">
+          <a class="card-cover" href="detail/movie-1591.html" aria-label="播放 启蒙映画">
+            <img src="./91.jpg" alt="启蒙映画" loading="lazy">
+            <span class="card-badge">爱情剧情</span>
+            <span class="card-time">2:59</span>
+            <span class="card-play">▶</span>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title"><a href="detail/movie-1591.html">启蒙映画</a></h3>
+            <p class="card-line">大正年间，一名保守的和服店女儿成为默片解说员，在银幕上发现被压抑的自我。</p>
+            <div class="card-meta">
+              <span>2027</span>
+              <span>·</span>
+              <span>日本</span>
+              <span>·</span>
+              <span>剧情, 情色, 历史</span>
+            </div>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">热播榜入口</h2>
+            <p class="section-desc">根据站内热度整理热门片单，便于快速发现高关注影片。</p>
+          </div>
+          <a class="button button-primary" href="ranking.html">完整榜单</a>
+        </div>
+        <div class="rank-list">
+        <a class="rank-item" href="./detail/movie-0877.html">
+          <span class="rank-no">1</span>
+          <span class="rank-thumb"><img src="./127.jpg" alt="断袖男" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">断袖男</strong>
+            <span class="rank-info">2026 · 中国大陆 · 热度 13040</span>
+          </span>
+        </a>
+        <a class="rank-item" href="./detail/movie-1411.html">
+          <span class="rank-no">2</span>
+          <span class="rank-thumb"><img src="./61.jpg" alt="揭密风暴" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">揭密风暴</strong>
+            <span class="rank-info">2027 · 美国 / 英国 · 热度 12991</span>
+          </span>
+        </a>
+        <a class="rank-item" href="./detail/movie-0536.html">
+          <span class="rank-no">3</span>
+          <span class="rank-thumb"><img src="./86.jpg" alt="撕裂地平线" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">撕裂地平线</strong>
+            <span class="rank-info">2026 · 美国 · 热度 12948</span>
+          </span>
+        </a>
+        <a class="rank-item" href="./detail/movie-0661.html">
+          <span class="rank-no">4</span>
+          <span class="rank-thumb"><img src="./61.jpg" alt="子夜叹息" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">子夜叹息</strong>
+            <span class="rank-info">2025 · 泰国 · 热度 12939</span>
+          </span>
+        </a>
+        <a class="rank-item" href="./detail/movie-1377.html">
+          <span class="rank-no">5</span>
+          <span class="rank-thumb"><img src="./27.jpg" alt="夏至廊桥" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">夏至廊桥</strong>
+            <span class="rank-info">2026 · 中国 · 热度 12938</span>
+          </span>
+        </a>
+        <a class="rank-item" href="./detail/movie-1945.html">
+          <span class="rank-no">6</span>
+          <span class="rank-thumb"><img src="./145.jpg" alt="阿拉伯漂移2" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">阿拉伯漂移2</strong>
+            <span class="rank-info">2026 · 沙特阿拉伯 / 阿联酋 · 热度 12937</span>
+          </span>
+        </a>
+        <a class="rank-item" href="./detail/movie-0911.html">
+          <span class="rank-no">7</span>
+          <span class="rank-thumb"><img src="./11.jpg" alt="帕里" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">帕里</strong>
+            <span class="rank-info">2026 · 印度 · 热度 12936</span>
+          </span>
+        </a>
+        <a class="rank-item" href="./detail/movie-0195.html">
+          <span class="rank-no">8</span>
+          <span class="rank-thumb"><img src="./45.jpg" alt="将军的儿子2" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">将军的儿子2</strong>
+            <span class="rank-info">2026 · 韩国 · 热度 12909</span>
+          </span>
+        </a>
+        <a class="rank-item" href="./detail/movie-1536.html">
+          <span class="rank-no">9</span>
+          <span class="rank-thumb"><img src="./36.jpg" alt="甜姐儿" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">甜姐儿</strong>
+            <span class="rank-info">2025 · 美国 · 热度 12857</span>
+          </span>
+        </a>
+        <a class="rank-item" href="./detail/movie-1627.html">
+          <span class="rank-no">10</span>
+          <span class="rank-thumb"><img src="./127.jpg" alt="幽谷" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">幽谷</strong>
+            <span class="rank-info">2025 · 中国大陆 · 热度 12822</span>
+          </span>
+        </a>
+        <a class="rank-item" href="./detail/movie-1002.html">
+          <span class="rank-no">11</span>
+          <span class="rank-thumb"><img src="./102.jpg" alt="无间追缉" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">无间追缉</strong>
+            <span class="rank-info">2024 · 美国 · 热度 12815</span>
+          </span>
+        </a>
+        <a class="rank-item" href="./detail/movie-0513.html">
+          <span class="rank-no">12</span>
+          <span class="rank-thumb"><img src="./63.jpg" alt="顽童182" loading="lazy"></span>
+          <span>
+            <strong class="rank-title">顽童182</strong>
+            <span class="rank-info">2026 · 中国台湾 · 热度 12805</span>
+          </span>
+        </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="logo" href="./index.html">
+          <span class="logo-mark"></span>
+          <span class="logo-text">热门欧美影片</span>
+        </a>
+        <p>热门欧美影片页面按站内热度整理欧美影片条目，便于查看多类型热门内容。</p>
+      </div>
+      <div>
+        <h3>快速入口</h3>
+        <ul>
+          <li><a href="./categories.html">分类浏览</a></li>
+          <li><a href="./library.html">完整片库</a></li>
+          <li><a href="./ranking.html">热播榜入口</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>精选分类</h3>
+        <ul>
+          <li><a href="./category-01.html">欧美热映</a></li>
+          <li><a href="./category-02.html">犯罪惊悚</a></li>
+          <li><a href="./category-03.html">爱情剧情</a></li>
+          <li><a href="./category-04.html">动作冒险</a></li>
+          <li><a href="./category-05.html">悬疑探案</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <button class="back-top" type="button" data-back-top aria-label="返回顶部">↑</button>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
+<!-- vercel-source-trigger: 20260601-232918 -->
